@@ -1,0 +1,42 @@
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+
+/* display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around; */
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  z-index: -1;
+  transition-duration: 1s;
+}
+#thanos {
+    margin-top: 10px;
+    z-index: 100;
+}
+#thanos:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+#snap {
+    height: 80%;
+    width: auto;
+    transition-duration: 4s;
+    position: absolute;
+    margin: 0 auto;
+    top: 120px;
+  }
+.character{
+  transition-duration: 1s;
+}
